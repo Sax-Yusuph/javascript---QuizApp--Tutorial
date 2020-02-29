@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <title>Quiz-App</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-7 col-md-9 m-auto ">
+                <div class="card  bg-dark border-0 shadow-lg rounded align-contents-center">
+                    <div id="start">
+                        <div class="card-header bg-gray-200 border-0">
+                            <h2 class="card-title font-weight-bold color text-center">Quiz App</h2>
+                        </div>
+                        <div class="card-body align-items-center">
+                            <button id="startBtn" class="btn btn-success shadow-lg btn-lg btn-block">Start your test</button>
+                        </div>
+                    </div>
+
+                    <!-- quiz container -->
+                    <div id="quizContainer">
+                        <div class="card-header bg-success border-0">
+                            <!-- <h4 class="color text-center"></h4> -->
+                        </div>
+                        <div class="card-body align-contents-center mt-0 py-2 bg-success">
+                            <div id="questionContainer" class="h3 color text-light ml-5"></div>
+                        </div>
+
+                        <!-- answer COntainer -->
+                        <div class="card-body pl-2 my-0">
+
+                            <form id="answerContainer" class="ac-custom ac-radio ac-fill" autocomplete="off">
+                                <ul id='answerUl'>
+                                    <li><input id="A" name="r1" type="radio"><label for="A" class="a1 text-light h6"></label></li>
+                                    <li><input id="B" name="r1" type="radio"><label for="B" class="a2 text-light h6"></label></li>
+                                    <li><input id="C" name="r1" type="radio"><label for="C" class="a3 text-light h6"></label></li>
+                                    <li><input id="D" name="r1" type="radio"><label for="D" class="a4 text-light h6"></label></li>
+                                </ul>
+                            </form>
+                        </div>
+                        <!-- /answer container -->
+
+                        <!-- progress bar -->
+                        <div id="progress" class="progress" style="height: 4px;">
+                            <div id="prog" class="progress-bar bg-gradient-warning" role="progressbar"></div>
+                        </div>
+                        <!-- progress bar -->
+
+                        <!-- footer with quizCount -->
+                        <div class="card-footer bg-gray-200 d-flex justify-content-around" id="progressVisual">
+                        </div>
+                        <!-- /footer with quiz Count -->
+                    </div>
+                    <!-- / quiz container -->
+
+                    <!-- score container -->
+                    <div id="finalScore" class="">
+                        <h4 class="font-weight-bold text-white">Test Completed!!</h4>
+                        <img src="img/in-love.svg" alt="">
+                        <p class="text-white px-2 rounded bg-dark ">score is 2</p>
+                    </div>
+                    <!-- / score container -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/svgcheckbx.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

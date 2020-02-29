@@ -1,0 +1,54 @@
+*, *::before,*::after{
+    box-sizing: border-box;
+}
+span.prog{
+    width : 1rem;
+    height : 1rem;
+    margin-right: 3px ;
+    border: 2px solid rgba(0, 0, 0, 0.295);
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+#finalScore{
+    height: 100%;
+    width : 100%;
+    position: absolute;
+    z-index: 1;
+    top: 15;
+    right: 0;
+    bottom: 0;
+    left: 30;
+    transition: 0.5s;
+    background-color: rgba(4, 21, 58, 0.32); 
+    display: none;
+}
+#finalScore img{
+    position: absolute;
+    top:30%;
+    left:41%;
+    width: 80px;
+    height: 80px;
+}
+#finalScore p{
+    position: absolute;
+    display: block;
+    top:50%;
+    left:35%;
+    font-weight: bold;
+    text-align: center;
+}
+#finalScore h4{
+    position: absolute;
+    display: block;
+    top:20%;
+    left:30%;
+    font-weight: bold;
+    text-align: center;
+
+}
+#quizContainer{
+    display: none;
+}

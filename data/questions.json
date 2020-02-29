@@ -1,0 +1,116 @@
+
+    [
+        {
+            "question" : "What is a web server?",
+            "imgSrc" : "img/html.png",
+            "answers": [
+                "A computer program that enables users to access web pages stored on the webserver's computer",
+                "A website on the internet",
+                "A networking database",
+                "An interconnection of computers"
+            ],
+            "correct": "A"
+        },
+        {
+            "question" : "Which of these terms is used to describe a code that is easily available to view and edit?",
+            "imgSrc" : "img/css.png",
+            "answers": [
+                "Forked code",
+                "Open source code",
+                "Spagetti code",
+                "standard code"
+            ],
+            "correct": "B"
+        },
+        {
+            "question" : "What does HTTP stands for?",
+            "imgSrc": "img/js.png",
+            "answers": [
+                "Hypertext web protocol",
+                "Hypertext transfer protocol",
+                "wrong",
+                "wrong"
+            ],
+            "correct" : "B"
+        },
+        {
+            "question" : "What does URL stand for?",
+            "imgSrc": "img/js.png",
+            "answers": [
+                "Wrong",
+                "Wrong",
+               "Correct",
+                "wrong"
+            ],
+            "correct": "C"
+        },
+
+        {
+            "question" : "What is the name of the HTML element that generates the smallest heading?",
+            
+            "answers": [
+                "Wrong",
+                "Wrong",
+               "Correct",
+                "wrong"
+            ],
+            "correct" : "C"
+        },
+        {
+            "question" : "what does \"wbr\" stands for?",
+            "imgSrc": "img/js.png",
+            "answers": [
+                "Wrong",
+                "Wrong",
+               "Correct",
+                "wrong"
+            ],
+            "correct" : "C"
+        },
+        {
+            "question" : "For the meta charset element, what does utf-8 stands for?",
+            "answers": [
+                "Wrong",
+                "Wrong",
+               "Correct",
+                "wrong"
+            ],
+            "correct" : "C"
+        },
+        {
+            "question" : "who developed the HTML tidy tool?",
+            "imgSrc": "img/js.png",
+            "answers": [
+                "Wrong",
+                "Wrong",
+               "Correct",
+                "wrong"
+            ],
+            "correct" : "C"
+        },
+        {
+            "question" : "Who designed the HTTP protocol?",
+            "imgSrc": "img/js.png",
+            "answers": [
+                "Wrong",
+                "Wrong",
+               "Correct",
+                "wrong"
+            ],
+            "correct" : "C"
+        },
+        {
+            "question" : "What is the purpose of the title element?",
+            "imgSrc": "img/js.png",
+            "answers": [
+                "Wrong",
+                "Wrong",
+               "Correct",
+                "wrong"
+            ],
+            "correct" : "C"
+        }
+
+        
+
+    ]
